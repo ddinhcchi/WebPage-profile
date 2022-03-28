@@ -426,14 +426,13 @@ padding:20px 10px;
 #aboutMe .txtHead .code_img{
     height: 58px;
     width: 58px;
-} 
+}
 
 .tileBox p{
     background-color: #f0f0f0;
-font-size: 15px;
-color: #777777;
-padding: 20px;
-margin: 0px;
+    font-size: 15px;
+    color: #777777;
+    padding: 20px;
 }
 /*parlex*/
 .bg-parlex {
@@ -454,14 +453,14 @@ text-align: right;
 font-weight: 600;
 padding-right: 0px;
 }
-.progress {
-border-radius: 0px;
-height: 15px;
-margin-top: 5px;
-background-color: #D6D6D6;
+#languages .txtHead{
+background:#777777;
+padding:20px 10px;
 }
-.progress .progress-bar {
-background-color: #CC4646;
+
+#languages .txtHead .code_img{
+    height: 58px;
+    width: 58px;
 }
 /*Skills*/
 
@@ -908,6 +907,9 @@ footer {
 	#timeline { 
 	margin:0px 12px;
 	}
+    .timeline-badge{
+        display: none;
+    }
 }
 
 @media (max-width:760px) {
